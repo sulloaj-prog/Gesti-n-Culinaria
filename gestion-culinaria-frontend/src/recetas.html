@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión Culinaria - Recetas</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <header>
+    <h1>Gestión Culinaria</h1>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Inicio</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="planificador.html">Planificador</a></li>
+        <li><a href="compras.html">Compras</a></li>
+        <li><a href="chef.html">Panel Chef</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Buscar Recetas</h2>
+      <form class="search-bar">
+        <label for="buscar">Buscar:</label>
+        <input type="text" id="buscar" placeholder="Ingrediente o nombre...">
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+
+    <section class="recetas-grid">
+      <article class="card">
+        <img src="../assets/arroz-pollo.jpg" alt="Plato de arroz con pollo">
+        <h3>Arroz con pollo</h3>
+        <p>Un clásico costarricense con sabor casero.</p>
+        <a href="detalle-arroz.html" class="btn">Ver detalle</a>
+      </article>
+
+      <article class="card">
+        <img src="../assets/ensalada.jpg" alt="Ensalada fresca con vegetales">
+        <h3>Ensalada fresca</h3>
+        <p>Ligera y saludable, ideal para el almuerzo.</p>
+        <a href="detalle-ensalada.html" class="btn">Ver detalle</a>
+      </article>
+
+      <article class="card">
+        <img src="../assets/pasta.jpg" alt="Plato de pasta con salsa">
+        <h3>Pasta con salsa</h3>
+        <p>Receta rápida y deliciosa para toda la familia.</p>
+        <a href="detalle-pasta.html" class="btn">Ver detalle</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Gestión Culinaria</p>
+  </footer>
+</body>
+</html>
+

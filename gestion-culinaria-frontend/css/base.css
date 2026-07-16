@@ -1,0 +1,43 @@
+:root {
+  --color-primario: #2a9d8f;
+  --color-secundario: #264653;
+  --color-fondo: #f4f4f4;
+  --fuente-base: 'Arial', sans-serif;
+}
+
+body {
+  font-family: var(--fuente-base);
+  background-color: var(--color-fondo);
+  margin: 0;
+  padding: 0;
+  color: var(--color-secundario);
+}
+
+header, footer {
+  background: var(--color-secundario);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+:root {
+  --color-primario: #0077b6;   /* azul */
+  --color-secundario: #00b4d8; /* celeste */
+  --color-acento: #2a9d8f;     /* verde */
+  --color-fondo: #f8f9fa;
+  --fuente-base: 'Segoe UI', sans-serif;
+  --fuente-titulos: 'Arial Black', sans-serif;
+}
+
+body {
+  font-family: var(--fuente-base);
+  background-color: var(--color-fondo);
+  margin: 0;
+  padding: 0;
+  color: var(--color-primario);
+}
+
+h1, h2, h3 {
+  font-family: var(--fuente-titulos);
+}
+
